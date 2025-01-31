@@ -67,8 +67,8 @@ const Home = () => {
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
         <input
           className="w-full p-2 border rounded mb-2"
-          placeholder="Enter Username" // Updated placeholder
-          value={username} // Updated state variable
+          placeholder="Enter Username" 
+          value={username} 
           onChange={(e) => setUsername(e.target.value)}
         />
         <textarea
