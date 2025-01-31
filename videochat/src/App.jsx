@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/chat/:roomId" element={<VideoChat />} />
+        <Route path="/video/:username" element={<VideoChat />} />
       </Routes>
     </Router>
   );
